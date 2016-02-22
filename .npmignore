@@ -1,0 +1,17 @@
+*.log
+*.md
+.editorconfig
+.eslintrc
+
+/.idea
+/dist
+/build
+/test
+
+/.babelrc
+/.editorconfig
+/.gitattributes
+/.travis.yml
+/gulpfile.js
+/gulpfile.babel.js
+/webpack.config.js

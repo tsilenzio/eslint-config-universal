@@ -1,0 +1,61 @@
+{
+  "name": "eslint-config-universal",
+  "version": "1.0.0",
+  "author": {
+    "name": "Taylor Silenzio",
+    "email": "tsilenzio@gmail.com",
+    "url": "http://tsilenz.io/"
+  },
+  "description": "ESLint Shareable Config",
+  "homepage": "https://github.com/tsilenzio/eslint-config-universal",
+  "repository": "tsilenzio/eslint-config-universal",
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "jslint",
+    "lint",
+    "linter",
+    "quality",
+    "simple",
+    "standard",
+    "strict",
+    "style",
+    "style checker",
+    "style linter",
+    "validate",
+    "verify"
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec test",
+    "lint": "eslint *.js **/*.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "chai": "^3.5.0",
+    "dedent": "^0.6.0",
+    "eslint": "^2.1.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-react": "^4.0.0",
+    "mocha": "^2.4.5",
+    "react": "^0.14.7"
+  },
+  "peerDependencies": {
+    "eslint": "^2.1.0"
+  }
+}
