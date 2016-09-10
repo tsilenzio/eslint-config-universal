@@ -19,9 +19,9 @@ module.exports = {
     // prevent usage of deprecated methods
     'react/no-deprecated': 2,
     // prevent usage of setState in componentDidMount
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': [2, 'disallow-in-func'],
     // prevent usage of setState in componentDidUpdate
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
+    'react/no-did-update-set-state': [2, 'disallow-in-func'],
     // prevent direct mutation of this.state
     'react/no-direct-mutation-state': 2,
     // prevent usage of isMounted
@@ -40,8 +40,6 @@ module.exports = {
     'react/prop-types': 2,
     // prevent missing React when using JSX
     'react/react-in-jsx-scope': 2,
-    // restrict file extensions that may be required
-    'react/require-extension': [2, { 'extensions': ['.jsx'] }],
     // prevent extra closing tags for components without children
     'react/self-closing-comp': 2,
     // enforce component methods order
@@ -57,12 +55,6 @@ module.exports = {
     }],
     // enforce propTypes declarations alphabetical sorting
     'react/sort-prop-types': 2,
-    // prevent missing parentheses around multilines JSX (fixable)
-    'react/wrap-multilines': [2, {
-      'declaration': true,
-      'assignment': true,
-      'return': true,
-    }],
     // enforce boolean attributes notation in JSX (fixable)
     'react/jsx-boolean-value': [2, 'never'],
     // validate closing bracket location in JSX
@@ -99,5 +91,11 @@ module.exports = {
     'react/jsx-uses-react': 2,
     // prevent variables used in JSX to be incorrectly marked as unused
     'react/jsx-uses-vars': 2,
+    // prevent missing parentheses around multilines JSX
+    'react/jsx-wrap-multilines': [2, {
+      declaration: true,
+      assignment: true,
+      return: true,
+    }],
   },
 }

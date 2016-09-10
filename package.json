@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-universal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Taylor Silenzio",
     "email": "tsilenzio@gmail.com",
@@ -46,16 +46,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-eslint": "^5.0.0",
+    "babel-eslint": "^6.1.2",
     "chai": "^3.5.0",
     "dedent": "^0.6.0",
-    "eslint": "^2.1.0",
-    "eslint-plugin-babel": "^3.1.0",
-    "eslint-plugin-react": "^4.0.0",
-    "mocha": "^2.4.5",
-    "react": "^0.14.7"
+    "eslint": "^3.5.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.2.0",
+    "mocha": "^3.0.2",
+    "react": "^15.3.1"
   },
   "peerDependencies": {
-    "eslint": "^2.1.0"
+    "eslint": "^3.5.0"
   }
 }

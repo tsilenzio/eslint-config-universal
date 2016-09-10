@@ -131,7 +131,7 @@ describe('Validate', function () {
 
         React.createClass({
           render: function () {
-            return <div></div>
+            return <div>text</div>
           },
           doSomething: function () {
             this.setState({})
